@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		85263C7E25D48C520011743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C7D25D48C520011743F /* AppDelegate.swift */; };
 		85263C8025D48C520011743F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C7F25D48C520011743F /* SceneDelegate.swift */; };
-		85263C8225D48C520011743F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C8125D48C520011743F /* ViewController.swift */; };
-		85263C8525D48C520011743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85263C8325D48C520011743F /* Main.storyboard */; };
+		85263C8225D48C520011743F /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C8125D48C520011743F /* LaunchViewController.swift */; };
 		85263C8725D48C550011743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85263C8625D48C550011743F /* Assets.xcassets */; };
 		85263C8A25D48C550011743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85263C8825D48C550011743F /* LaunchScreen.storyboard */; };
 		85263C9525D48C550011743F /* EvmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C9425D48C550011743F /* EvmoTests.swift */; };
 		85263CA025D48C550011743F /* EvmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C9F25D48C550011743F /* EvmoUITests.swift */; };
+		8571487325F22E1E00ADCABC /* LibsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571487225F22E1E00ADCABC /* LibsManager.swift */; };
+		8571487C25F233D900ADCABC /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571487B25F233D900ADCABC /* CocoaLumberjackSwift */; };
+		8571487E25F233D900ADCABC /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 8571487D25F233D900ADCABC /* CocoaLumberjack */; };
+		8571488325F2348C00ADCABC /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571488225F2348C00ADCABC /* LogManager.swift */; };
+		8571488C25F23EC100ADCABC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488B25F23EC100ADCABC /* RxSwift */; };
+		8571488E25F23EC100ADCABC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488D25F23EC100ADCABC /* RxCocoa */; };
+		8571489025F23EC100ADCABC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488F25F23EC100ADCABC /* RxRelay */; };
+		8571489625F23EEE00ADCABC /* RxTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 8571489525F23EEE00ADCABC /* RxTheme */; };
+		8571489C25F2403100ADCABC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */; };
+		857148A225F2427800ADCABC /* NSObject-Rx in Frameworks */ = {isa = PBXBuildFile; productRef = 857148A125F2427800ADCABC /* NSObject-Rx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,7 @@
 		85263C7A25D48C520011743F /* Evmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85263C7D25D48C520011743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85263C7F25D48C520011743F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85263C8125D48C520011743F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85263C8425D48C520011743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85263C8125D48C520011743F /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		85263C8625D48C550011743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85263C8925D48C550011743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85263C8B25D48C550011743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		85263C9B25D48C550011743F /* EvmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85263C9F25D48C550011743F /* EvmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvmoUITests.swift; sourceTree = "<group>"; };
 		85263CA125D48C550011743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8571487225F22E1E00ADCABC /* LibsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibsManager.swift; sourceTree = "<group>"; };
+		8571488225F2348C00ADCABC /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8571489C25F2403100ADCABC /* IQKeyboardManagerSwift in Frameworks */,
+				8571489625F23EEE00ADCABC /* RxTheme in Frameworks */,
+				857148A225F2427800ADCABC /* NSObject-Rx in Frameworks */,
+				8571489025F23EC100ADCABC /* RxRelay in Frameworks */,
+				8571488C25F23EC100ADCABC /* RxSwift in Frameworks */,
+				8571487E25F233D900ADCABC /* CocoaLumberjack in Frameworks */,
+				8571488E25F23EC100ADCABC /* RxCocoa in Frameworks */,
+				8571487C25F233D900ADCABC /* CocoaLumberjackSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +117,13 @@
 		85263C7C25D48C520011743F /* Evmo */ = {
 			isa = PBXGroup;
 			children = (
-				85263C7D25D48C520011743F /* AppDelegate.swift */,
-				85263C7F25D48C520011743F /* SceneDelegate.swift */,
-				85263C8125D48C520011743F /* ViewController.swift */,
-				85263C8325D48C520011743F /* Main.storyboard */,
+				85F3D13A25D4927D00633431 /* Application */,
+				8571487125F22DFF00ADCABC /* Managers */,
+				8571487025F22DF000ADCABC /* Common */,
+				85F3D13725D491B800633431 /* Presentation */,
+				85F3D13925D4923000633431 /* Domain */,
+				85F3D13825D4922700633431 /* Data */,
 				85263C8625D48C550011743F /* Assets.xcassets */,
-				85263C8825D48C550011743F /* LaunchScreen.storyboard */,
-				85263C8B25D48C550011743F /* Info.plist */,
 			);
 			path = Evmo;
 			sourceTree = "<group>";
@@ -128,6 +146,55 @@
 			path = EvmoUITests;
 			sourceTree = "<group>";
 		};
+		8571487025F22DF000ADCABC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8571487125F22DFF00ADCABC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8571487225F22E1E00ADCABC /* LibsManager.swift */,
+				8571488225F2348C00ADCABC /* LogManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		85F3D13725D491B800633431 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				85263C8125D48C520011743F /* LaunchViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		85F3D13825D4922700633431 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		85F3D13925D4923000633431 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		85F3D13A25D4927D00633431 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				85263C7D25D48C520011743F /* AppDelegate.swift */,
+				85263C7F25D48C520011743F /* SceneDelegate.swift */,
+				85263C8825D48C550011743F /* LaunchScreen.storyboard */,
+				85263C8B25D48C550011743F /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +211,16 @@
 			dependencies = (
 			);
 			name = Evmo;
+			packageProductDependencies = (
+				8571487B25F233D900ADCABC /* CocoaLumberjackSwift */,
+				8571487D25F233D900ADCABC /* CocoaLumberjack */,
+				8571488B25F23EC100ADCABC /* RxSwift */,
+				8571488D25F23EC100ADCABC /* RxCocoa */,
+				8571488F25F23EC100ADCABC /* RxRelay */,
+				8571489525F23EEE00ADCABC /* RxTheme */,
+				8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */,
+				857148A125F2427800ADCABC /* NSObject-Rx */,
+			);
 			productName = Evmo;
 			productReference = 85263C7A25D48C520011743F /* Evmo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +292,13 @@
 				Base,
 			);
 			mainGroup = 85263C7125D48C520011743F;
+			packageReferences = (
+				8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+				8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */,
+				8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */,
+			);
 			productRefGroup = 85263C7B25D48C520011743F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +317,6 @@
 			files = (
 				85263C8A25D48C550011743F /* LaunchScreen.storyboard in Resources */,
 				85263C8725D48C550011743F /* Assets.xcassets in Resources */,
-				85263C8525D48C520011743F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85263C8225D48C520011743F /* ViewController.swift in Sources */,
+				85263C8225D48C520011743F /* LaunchViewController.swift in Sources */,
+				8571488325F2348C00ADCABC /* LogManager.swift in Sources */,
+				8571487325F22E1E00ADCABC /* LibsManager.swift in Sources */,
 				85263C7E25D48C520011743F /* AppDelegate.swift in Sources */,
 				85263C8025D48C520011743F /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85263C8325D48C520011743F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85263C8425D48C520011743F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85263C8825D48C550011743F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,7 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7693M9CNF;
-				INFOPLIST_FILE = Evmo/Info.plist;
+				INFOPLIST_FILE = Evmo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +534,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7693M9CNF;
-				INFOPLIST_FILE = Evmo/Info.plist;
+				INFOPLIST_FILE = Evmo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,6 +670,92 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.0;
+			};
+		};
+		8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxTheme";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.4;
+			};
+		};
+		8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/NSObject-Rx";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8571487B25F233D900ADCABC /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		8571487D25F233D900ADCABC /* CocoaLumberjack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjack;
+		};
+		8571488B25F23EC100ADCABC /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		8571488D25F23EC100ADCABC /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		8571488F25F23EC100ADCABC /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		8571489525F23EEE00ADCABC /* RxTheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */;
+			productName = RxTheme;
+		};
+		8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		857148A125F2427800ADCABC /* NSObject-Rx */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */;
+			productName = "NSObject-Rx";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85263C7225D48C520011743F /* Project object */;
 }
