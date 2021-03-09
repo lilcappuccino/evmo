@@ -20,5 +20,101 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78C67704-5795-4798-8698-4FF67E9DAF19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Evmo/Presentation/SignUp/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "745252B0-7329-4F8F-B82A-EBF9F4448262"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Evmo/Presentation/SignUp/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "921FE4F8-58C3-410C-A99D-E66AEDAE97F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Evmo/Application/Application.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "buildViewModel(window:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "921FE4F8-58C3-410C-A99D-E66AEDAE97F9 - 69a1d2a887d90487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Evmo.Application.buildViewModel(window: Swift.Optional&lt;__C.UIWindow&gt;) -&gt; ()"
+                  moduleName = "Evmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vadimmarchenko/Development/iOS/evmo/Evmo/Application/Application.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "659">
+               </Location>
+               <Location
+                  uuid = "921FE4F8-58C3-410C-A99D-E66AEDAE97F9 - 3e6b6ff1e8d1bd6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Swift.Bool) -&gt; () in implicit closure #1 (Evmo.Application) -&gt; (Swift.Bool) -&gt; () in Evmo.Application.buildViewModel(window: Swift.Optional&lt;__C.UIWindow&gt;) -&gt; ()"
+                  moduleName = "Evmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vadimmarchenko/Development/iOS/evmo/Evmo/Application/Application.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16049B74-8975-4989-9757-CC1F43ECA667"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Evmo/Application/Application.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "openRootController(isTokenExist:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
