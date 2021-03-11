@@ -25,7 +25,7 @@ extension SharedSequenceConvertibleType {
 extension ObservableType {
     
     func catchErrorJustComplete() -> Observable<Element> {
-        return `catch` { _ in
+        return catchError { _ in
             return Observable.empty()
         }
     }

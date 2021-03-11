@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CocoaLumberjackSwift
+import CocoaLumberjack
 import RxSwift
 
 
@@ -42,9 +42,9 @@ public func logWarn(_ message: @autoclosure () -> String) {
     #endif
 }
 
-#warning("Can't use with SPM")
+
 public func logResourcesCount() {
     #if DEBUG
-//    logDebug("RxSwift resources count: \(RxSwift.Resources.total)") 
+//    logDebug("RxSwift resources count: \(RxSwift.Resources.total)")
     #endif
 }

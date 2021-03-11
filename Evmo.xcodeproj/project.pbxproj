@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EE1DE73073035978E7CB369 /* Pods_Evmo_EvmoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2D747AC813B237B1EFB3E8 /* Pods_Evmo_EvmoUITests.framework */; };
+		7EECAE9C5EE65B3E11CFCBF7 /* Pods_Evmo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A2E8DDA5AC1E7C630D7DD4 /* Pods_Evmo.framework */; };
 		850CBBD725F55FD30062A550 /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CBBD625F55FD30062A550 /* UseCaseProvider.swift */; };
 		850CBBDC25F55FE80062A550 /* AuthUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CBBDB25F55FE80062A550 /* AuthUseCase.swift */; };
 		850CBBE525F561010062A550 /* UseCaseProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CBBE425F561010062A550 /* UseCaseProviderImpl.swift */; };
@@ -19,23 +21,12 @@
 		85263C9525D48C550011743F /* EvmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C9425D48C550011743F /* EvmoTests.swift */; };
 		85263CA025D48C550011743F /* EvmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85263C9F25D48C550011743F /* EvmoUITests.swift */; };
 		8571487325F22E1E00ADCABC /* LibsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571487225F22E1E00ADCABC /* LibsManager.swift */; };
-		8571487C25F233D900ADCABC /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571487B25F233D900ADCABC /* CocoaLumberjackSwift */; };
-		8571487E25F233D900ADCABC /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 8571487D25F233D900ADCABC /* CocoaLumberjack */; };
 		8571488325F2348C00ADCABC /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571488225F2348C00ADCABC /* LogManager.swift */; };
-		8571488C25F23EC100ADCABC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488B25F23EC100ADCABC /* RxSwift */; };
-		8571488E25F23EC100ADCABC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488D25F23EC100ADCABC /* RxCocoa */; };
-		8571489025F23EC100ADCABC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8571488F25F23EC100ADCABC /* RxRelay */; };
-		8571489625F23EEE00ADCABC /* RxTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 8571489525F23EEE00ADCABC /* RxTheme */; };
-		8571489C25F2403100ADCABC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */; };
-		857148A225F2427800ADCABC /* NSObject-Rx in Frameworks */ = {isa = PBXBuildFile; productRef = 857148A125F2427800ADCABC /* NSObject-Rx */; };
 		857148AF25F248DE00ADCABC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857148AE25F248DE00ADCABC /* Application.swift */; };
 		857148C325F2527600ADCABC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857148C225F2527600ADCABC /* User.swift */; };
-		857148F825F27CFD00ADCABC /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 857148F725F27CFD00ADCABC /* KeychainSwift */; };
 		857148FD25F280CD00ADCABC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857148FC25F280CD00ADCABC /* SessionManager.swift */; };
 		8571490425F281F500ADCABC /* Optional+NotNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571490325F281F500ADCABC /* Optional+NotNil.swift */; };
 		8571490C25F2832900ADCABC /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571490B25F2832900ADCABC /* AuthRepository.swift */; };
-		857DC8C125F7DBC80056FBD1 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 857DC8C025F7DBC80056FBD1 /* Hero */; };
-		857DC8C225F7DBC80056FBD1 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 857DC8C025F7DBC80056FBD1 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		857DC8C725F7DCC30056FBD1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857DC8C625F7DCC30056FBD1 /* NavigationController.swift */; };
 		857DC8CB25F7DDC60056FBD1 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857DC8CA25F7DDC60056FBD1 /* AppViewModel.swift */; };
 		857DC8CF25F7E1470056FBD1 /* ObsarvableType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857DC8CE25F7E1470056FBD1 /* ObsarvableType+.swift */; };
@@ -50,7 +41,7 @@
 		85B1087925F7EFD4007C1E43 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1087825F7EFD4007C1E43 /* View+.swift */; };
 		85B1087E25F7F0A7007C1E43 /* Viewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1087D25F7F0A7007C1E43 /* Viewable.swift */; };
 		85B1088925F7F290007C1E43 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1088825F7F290007C1E43 /* Dimension.swift */; };
-		85B1089025F7FD9C007C1E43 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 85B1088F25F7FD9C007C1E43 /* SnapKit */; };
+		93011AA936DADB0C10596CA0 /* Pods_EvmoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEBA57603466A3C054DB389 /* Pods_EvmoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +68,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				857DC8C225F7DBC80056FBD1 /* Hero in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +75,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		008D9B6B65BCA8AE8630EE04 /* Pods-Evmo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evmo.debug.xcconfig"; path = "Target Support Files/Pods-Evmo/Pods-Evmo.debug.xcconfig"; sourceTree = "<group>"; };
+		16711D53AF51EB1ECF39C20A /* Pods-Evmo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evmo.release.xcconfig"; path = "Target Support Files/Pods-Evmo/Pods-Evmo.release.xcconfig"; sourceTree = "<group>"; };
+		42A2E8DDA5AC1E7C630D7DD4 /* Pods_Evmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Evmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3DF595E186E4D2B5325398 /* Pods-EvmoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvmoTests.debug.xcconfig"; path = "Target Support Files/Pods-EvmoTests/Pods-EvmoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CEBA57603466A3C054DB389 /* Pods_EvmoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvmoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7931D105C93B0466A84B1412 /* Pods-EvmoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvmoTests.release.xcconfig"; path = "Target Support Files/Pods-EvmoTests/Pods-EvmoTests.release.xcconfig"; sourceTree = "<group>"; };
 		850CBBD625F55FD30062A550 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
 		850CBBDB25F55FE80062A550 /* AuthUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUseCase.swift; sourceTree = "<group>"; };
 		850CBBE425F561010062A550 /* UseCaseProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProviderImpl.swift; sourceTree = "<group>"; };
@@ -123,6 +119,9 @@
 		85B1087825F7EFD4007C1E43 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		85B1087D25F7F0A7007C1E43 /* Viewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewable.swift; sourceTree = "<group>"; };
 		85B1088825F7F290007C1E43 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		B30478ADE6C99E109C2E13B3 /* Pods-Evmo-EvmoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evmo-EvmoUITests.release.xcconfig"; path = "Target Support Files/Pods-Evmo-EvmoUITests/Pods-Evmo-EvmoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D94CBAC1FC7A90DF492BCE6C /* Pods-Evmo-EvmoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evmo-EvmoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Evmo-EvmoUITests/Pods-Evmo-EvmoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2D747AC813B237B1EFB3E8 /* Pods_Evmo_EvmoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Evmo_EvmoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,17 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				857148F825F27CFD00ADCABC /* KeychainSwift in Frameworks */,
-				8571489C25F2403100ADCABC /* IQKeyboardManagerSwift in Frameworks */,
-				8571489625F23EEE00ADCABC /* RxTheme in Frameworks */,
-				857148A225F2427800ADCABC /* NSObject-Rx in Frameworks */,
-				8571489025F23EC100ADCABC /* RxRelay in Frameworks */,
-				8571488C25F23EC100ADCABC /* RxSwift in Frameworks */,
-				8571487E25F233D900ADCABC /* CocoaLumberjack in Frameworks */,
-				8571488E25F23EC100ADCABC /* RxCocoa in Frameworks */,
-				857DC8C125F7DBC80056FBD1 /* Hero in Frameworks */,
-				8571487C25F233D900ADCABC /* CocoaLumberjackSwift in Frameworks */,
-				85B1089025F7FD9C007C1E43 /* SnapKit in Frameworks */,
+				7EECAE9C5EE65B3E11CFCBF7 /* Pods_Evmo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93011AA936DADB0C10596CA0 /* Pods_EvmoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE1DE73073035978E7CB369 /* Pods_Evmo_EvmoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +168,8 @@
 				85263C9325D48C550011743F /* EvmoTests */,
 				85263C9E25D48C550011743F /* EvmoUITests */,
 				85263C7B25D48C520011743F /* Products */,
+				BBDA85995C55AD62896A5A9E /* Pods */,
+				FDC0B0514445DD72BE50A003 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +213,20 @@
 				85263CA125D48C550011743F /* Info.plist */,
 			);
 			path = EvmoUITests;
+			sourceTree = "<group>";
+		};
+		855C699025F90BE0001812DF /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		855C699125F90BE9001812DF /* LogOut */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogOut;
 			sourceTree = "<group>";
 		};
 		8571487025F22DF000ADCABC /* Common */ = {
@@ -367,6 +374,8 @@
 		85F3D13725D491B800633431 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				855C699125F90BE9001812DF /* LogOut */,
+				855C699025F90BE0001812DF /* SignIn */,
 				85AC482125F65DF300E17326 /* SignUp */,
 				857148A625F2455100ADCABC /* Home */,
 			);
@@ -405,6 +414,29 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		BBDA85995C55AD62896A5A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				008D9B6B65BCA8AE8630EE04 /* Pods-Evmo.debug.xcconfig */,
+				16711D53AF51EB1ECF39C20A /* Pods-Evmo.release.xcconfig */,
+				D94CBAC1FC7A90DF492BCE6C /* Pods-Evmo-EvmoUITests.debug.xcconfig */,
+				B30478ADE6C99E109C2E13B3 /* Pods-Evmo-EvmoUITests.release.xcconfig */,
+				6B3DF595E186E4D2B5325398 /* Pods-EvmoTests.debug.xcconfig */,
+				7931D105C93B0466A84B1412 /* Pods-EvmoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDC0B0514445DD72BE50A003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A2E8DDA5AC1E7C630D7DD4 /* Pods_Evmo.framework */,
+				DA2D747AC813B237B1EFB3E8 /* Pods_Evmo_EvmoUITests.framework */,
+				6CEBA57603466A3C054DB389 /* Pods_EvmoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -412,29 +444,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85263CA425D48C550011743F /* Build configuration list for PBXNativeTarget "Evmo" */;
 			buildPhases = (
+				C456E949FD4BEF09793464B7 /* [CP] Check Pods Manifest.lock */,
 				85263C7625D48C520011743F /* Sources */,
 				85263C7725D48C520011743F /* Frameworks */,
 				85263C7825D48C520011743F /* Resources */,
 				857DC8C325F7DBC80056FBD1 /* Embed Frameworks */,
+				DD49B5B34D87DE23AF9925C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Evmo;
-			packageProductDependencies = (
-				8571487B25F233D900ADCABC /* CocoaLumberjackSwift */,
-				8571487D25F233D900ADCABC /* CocoaLumberjack */,
-				8571488B25F23EC100ADCABC /* RxSwift */,
-				8571488D25F23EC100ADCABC /* RxCocoa */,
-				8571488F25F23EC100ADCABC /* RxRelay */,
-				8571489525F23EEE00ADCABC /* RxTheme */,
-				8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */,
-				857148A125F2427800ADCABC /* NSObject-Rx */,
-				857148F725F27CFD00ADCABC /* KeychainSwift */,
-				857DC8C025F7DBC80056FBD1 /* Hero */,
-				85B1088F25F7FD9C007C1E43 /* SnapKit */,
-			);
 			productName = Evmo;
 			productReference = 85263C7A25D48C520011743F /* Evmo.app */;
 			productType = "com.apple.product-type.application";
@@ -443,6 +464,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85263CA725D48C550011743F /* Build configuration list for PBXNativeTarget "EvmoTests" */;
 			buildPhases = (
+				9D00DB03FD1A2F5D1A770BE2 /* [CP] Check Pods Manifest.lock */,
 				85263C8C25D48C550011743F /* Sources */,
 				85263C8D25D48C550011743F /* Frameworks */,
 				85263C8E25D48C550011743F /* Resources */,
@@ -461,9 +483,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85263CAA25D48C550011743F /* Build configuration list for PBXNativeTarget "EvmoUITests" */;
 			buildPhases = (
+				F19BCC71FD0FCA0FA7432AFC /* [CP] Check Pods Manifest.lock */,
 				85263C9725D48C550011743F /* Sources */,
 				85263C9825D48C550011743F /* Frameworks */,
 				85263C9925D48C550011743F /* Resources */,
+				7AB34201F9DC3C8FAFC863D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -506,16 +530,6 @@
 				Base,
 			);
 			mainGroup = 85263C7125D48C520011743F;
-			packageReferences = (
-				8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
-				8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */,
-				8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */,
-				8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */,
-				857148F625F27CFD00ADCABC /* XCRemoteSwiftPackageReference "keychain-swift" */,
-				857DC8BF25F7DBC80056FBD1 /* XCRemoteSwiftPackageReference "Hero" */,
-				85B1088E25F7FD9C007C1E43 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = 85263C7B25D48C520011743F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -552,6 +566,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AB34201F9DC3C8FAFC863D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Evmo-EvmoUITests/Pods-Evmo-EvmoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Evmo-EvmoUITests/Pods-Evmo-EvmoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Evmo-EvmoUITests/Pods-Evmo-EvmoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D00DB03FD1A2F5D1A770BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvmoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C456E949FD4BEF09793464B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evmo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD49B5B34D87DE23AF9925C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Evmo/Pods-Evmo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Evmo/Pods-Evmo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Evmo/Pods-Evmo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19BCC71FD0FCA0FA7432AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evmo-EvmoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85263C7625D48C520011743F /* Sources */ = {
@@ -750,6 +867,7 @@
 		};
 		85263CA525D48C550011743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008D9B6B65BCA8AE8630EE04 /* Pods-Evmo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -769,6 +887,7 @@
 		};
 		85263CA625D48C550011743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16711D53AF51EB1ECF39C20A /* Pods-Evmo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -788,6 +907,7 @@
 		};
 		85263CA825D48C550011743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3DF595E186E4D2B5325398 /* Pods-EvmoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -810,6 +930,7 @@
 		};
 		85263CA925D48C550011743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7931D105C93B0466A84B1412 /* Pods-EvmoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -832,6 +953,7 @@
 		};
 		85263CAB25D48C550011743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94CBAC1FC7A90DF492BCE6C /* Pods-Evmo-EvmoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -852,6 +974,7 @@
 		};
 		85263CAC25D48C550011743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30478ADE6C99E109C2E13B3 /* Pods-Evmo-EvmoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -910,131 +1033,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.7.0;
-			};
-		};
-		8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.1.0;
-			};
-		};
-		8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxTheme";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.4;
-			};
-		};
-		8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.5.6;
-			};
-		};
-		857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/NSObject-Rx";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.0;
-			};
-		};
-		857148F625F27CFD00ADCABC /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 19.0.0;
-			};
-		};
-		857DC8BF25F7DBC80056FBD1 /* XCRemoteSwiftPackageReference "Hero" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.1;
-			};
-		};
-		85B1088E25F7FD9C007C1E43 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8571487B25F233D900ADCABC /* CocoaLumberjackSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjackSwift;
-		};
-		8571487D25F233D900ADCABC /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571487A25F233D900ADCABC /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		8571488B25F23EC100ADCABC /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		8571488D25F23EC100ADCABC /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		8571488F25F23EC100ADCABC /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571488A25F23EC100ADCABC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		8571489525F23EEE00ADCABC /* RxTheme */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571489425F23EEE00ADCABC /* XCRemoteSwiftPackageReference "RxTheme" */;
-			productName = RxTheme;
-		};
-		8571489B25F2403100ADCABC /* IQKeyboardManagerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8571489A25F2403100ADCABC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
-		};
-		857148A125F2427800ADCABC /* NSObject-Rx */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 857148A025F2427800ADCABC /* XCRemoteSwiftPackageReference "NSObject-Rx" */;
-			productName = "NSObject-Rx";
-		};
-		857148F725F27CFD00ADCABC /* KeychainSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 857148F625F27CFD00ADCABC /* XCRemoteSwiftPackageReference "keychain-swift" */;
-			productName = KeychainSwift;
-		};
-		857DC8C025F7DBC80056FBD1 /* Hero */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 857DC8BF25F7DBC80056FBD1 /* XCRemoteSwiftPackageReference "Hero" */;
-			productName = Hero;
-		};
-		85B1088F25F7FD9C007C1E43 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 85B1088E25F7FD9C007C1E43 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85263C7225D48C520011743F /* Project object */;
 }
